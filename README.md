@@ -42,3 +42,9 @@ This command redirects both standard output (`> eqevents.log`) and standard erro
 *   **Meshtastic Connection Error**: Ensure your Meshtastic radio is powered on and connected to the specified `NODE_IP`.
 *   **API Errors**: Check your network connection and ensure the USGS API endpoint is accessible.
 *   **Deduplication**: If you need to manually force a re-broadcast of an event, delete the `last_eq_id.txt` file.
+
+## 🔎 Example Alert Message - (200 Character Limit)
+⚠️Earthquake:⚠️
+ⓘ M 8.0 - 14 km SW of Pitaloza Arriba, Panama
+🌊 ❌No
+🔗 [https://usgs.gov](https://earthquake.usgs.gov/earthquakes/eventpage/pt26282000)
